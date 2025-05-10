@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>blkd out – Null State</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #121212, #1E1E1E);
+      color: #FFFFFF;
+      font-family: 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background-color: #121212;
+      color: #fff;
+    }
+
+    .hero h1 {
+      font-size: 4rem;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+      color: #1DB954;
+      text-transform: uppercase;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+      color: #ccc;
+    }
+
+    .hero a {
+      background-color: #1DB954;
+      padding: 15px 30px;
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+      border-radius: 50px;
+      transition: background-color 0.2s ease-in-out;
+    }
+
+    .hero a:hover {
+      background-color: #1ed760;
+    }
+
+    .track-container {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    audio {
+      width: 100%;
+      max-width: 500px;
+      margin-top: 20px;
+    }
+
+    .nav {
+      margin-top: 30px;
+    }
+
+    .nav a {
+      color: #1DB954;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: color 0.2s ease-in-out;
+    }
+
+    .nav a:hover {
+      color: #1ed760;
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>blkd out</h1>
+    <p>Track 2: Null State</p>
+    <a href="index.html">← Back to Home</a>
+  </div>
+
+  <!-- Track Section -->
+  <div class="track-container">
+    <audio controls>
+      <source src="assets/audio/track2.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <div class="nav">
+      <a href="song1.html">← Back to Synthetic Sliding</a>
+    </div>
+  </div>
+</body>
+</html>
