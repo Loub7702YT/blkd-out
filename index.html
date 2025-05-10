@@ -4,37 +4,66 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>blkd out</title>
-  <link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-  <div class="container">
-    <h1>blkd out</h1>
-    <p class="track-title">Welcome to the drop</p>
-    <a href="song1.html">▶️ Listen to Track 1</a>
-  </div>
-</body>
-</html>
+  <style>
+    body {
+      background: #121212;
+      color: #FFFFFF;
+      font-family: 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>blkd out – synthetic sliding</title>
-  <link rel="stylesheet" href="assets/style.css" />
+    .container {
+      margin: auto;
+      text-align: center;
+      max-width: 600px;
+      padding: 40px 20px;
+      background: #1E1E1E;
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #1DB954;
+    }
+
+    .track-title {
+      font-size: 1rem;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+
+    .track-list p {
+      margin: 10px 0;
+    }
+
+    .track-list a {
+      color: #1DB954;
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: color 0.2s ease-in-out;
+    }
+
+    .track-list a:hover {
+      color: #1ed760;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
     <h1>blkd out</h1>
-    <p class="track-title">Track 1 – Synthetic Sliding</p>
-    <audio controls>
-      <source src="assets/audio/track1.mp3" type="audio/mpeg" />
-      Your browser does not support the audio element.
-    </audio>
-    <div class="nav">
-      <a href="index.html">← Home</a> | <a href="song2.html">Next →</a>
+    <p class="track-title">Select a track</p>
+    <div class="track-list">
+      <p><a href="song1.html">▶️ Synthetic Sliding</a></p>
+      <p><a href="song2.html">▶️ Null State</a></p>
     </div>
   </div>
 </body>
 </html>
-
